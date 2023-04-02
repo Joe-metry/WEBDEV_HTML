@@ -1,0 +1,71 @@
+<!--In this tutorial, I learnt about the HTML table tag and
+most of it key features. I was taught about the <thead>,
+    <tbody> and <tfoot> tags which are tags for the table head,
+        tabl body and the table foot respectively.
+    each of this tags taks the <tr> tag which defines the table
+        columns. The <thead> tag takes the <th> tag to specify
+            that this element is the table head.
+        The <tbody> and <tfoot> both take the <td> tag that specifies
+            the data(<td> = table data), depending on the columns and rows
+                -->
+                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML TUTORIAL 8</title>
+</head>
+<header>
+    <h1 style="text-align: center; background-color: black;color:wheat;"></h1>
+</header>
+<body>
+<table>
+    <!--Table Head-->
+    <thead>
+        <tr>
+            <th colspan="4" style="background-color: aquav;">PRODUCTION & SALES DATA</th>
+        </tr>
+       <tr>
+        <th>Goods</th>
+        <th>Prod. Month</th>
+        <th>Sales Status</th>
+        <th>Shelf life</th>
+       </tr>
+    </thead>
+    <!---Table Body-->
+    <tbody>
+        <tr>
+            <td>Steel Metal</td>
+            <td>June</td>
+            <td>In stock</td>
+            <td>Unperishable</td>
+        </tr>
+        <tr>
+            <td>Leather</td>
+            <td>November</td>
+            <td>In stock</td>
+            <td>200 yrs</td>
+        </tr>
+        <tr>
+            <td>Honey/flakes</td>
+            <td>January</td>
+            <td>Sold 87%</td>
+            <td>24 months</td>
+        </tr>
+        <tr>
+            <td>Greek/Yoghurt</td>
+            <td>April</td>
+            <td>33.3% sold</td>
+            <td>18 months</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>Wheat/Flour</td>
+                <td>December</td>
+                <td>Sold</td>
+                <td>12 months</td>
+            </tr>
+        </tfoot>
+    </tbody>
+</table>
+</body>
+</html>
