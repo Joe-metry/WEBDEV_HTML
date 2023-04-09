@@ -1,0 +1,14 @@
+I just descovered a way to frame a function so that it takes an argument
+and print the positive and negative values.
+the values are going to be the same and just different in the signed
+they carry.
+
+I was studying Lambda functions in python and mage this serendipitious
+discovery.
+
+this is what happened on the thursday, 4th day of April 2023 at (09:30 am
+- 09:55 am)
+below is the lamda function:
+y = lambda x: 7*x - 5*x
+y = lambda x: 3*x - 5*x
+I tested the following values (-1, 0, 1, 2, 3, 4,. 5, 6, 7, 8, 9, 10, 11, 12)
