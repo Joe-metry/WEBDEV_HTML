@@ -1,10 +1,19 @@
 h1 {
-  font-family: Georgia, "Trebuchet MSserif;
+   font-family: Georgia, "Trebuchet MSserif";
+   font-size: 2em;
 }
 
 p {
-	font-family: "Times New Roman", Times, serif;
+   font-family: "Times New Roman", Times, serif;
+   font-size: 1.2em;
+   color: brown;
 }
-p {
-  color: brown;
+
+p.important {
+  font-size: 1.5em;
+  color: coral;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
 }
