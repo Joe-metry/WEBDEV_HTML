@@ -1,24 +1,40 @@
 h1 {
-   font-family: Georgia, "Trebuchet MSserif";
-   font-size: 2em;
+  font-family: Georgia, "Trebuchet MSserif";
+  font-size: 2em;
 }
 
 p {
-   font-family: "Times New Roman", Times, serif;
-   font-size: 1.2em;
-   color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  color: brown;
 }
 
 p.important {
-  font-size: 1.5em;
-  color: coral;
-  font-weight: 900;
+ font-size: 1.5em;
+ color: coral;
+ font-weight: 900;
 }
 
 .typewriter {
-  font-family: 'Courier New', Courier, monospace;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 .emphasised {
-  font-style: italic;
+ font-style: italic;
+}
+.standout {
+  color: darkgoldenrod;
+}
+p.space {
+  line-height: 2.5em;
+  word-spacing: 1.5em;
+  letter-spacing: 1.5em;
+}
+
+h3.align {
+  text-align: center;
+}
+
+p.just {
+  text-align: justify;
 }
